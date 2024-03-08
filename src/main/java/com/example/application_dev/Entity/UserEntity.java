@@ -1,15 +1,16 @@
 package com.example.application_dev.Entity;
+//FOR JPA
+//import jakarta.persistence.Entity;
+//import jakarta.persistence.GeneratedValue;
+//import jakarta.persistence.GenerationType;
+//import jakarta.persistence.Id;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-
-@Entity
+//@Entity
 
 public class UserEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //FOR JPA
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public long id;
     private String firstName, lastName;
     public UserEntity() {
